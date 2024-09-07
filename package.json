@@ -1,12 +1,12 @@
 {
-  "homepage": "https://mohamedbahgat122.github.io/TrendCart",
+  "homepage": "https://mohamedbahgat122.github.io/trend",
   "name": "final-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
